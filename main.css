@@ -1,0 +1,635 @@
+/*  
+$orange = #FFA200;
+$turk = #00FFFF; et/ou $rouge = #FF0000; 
+$turkfoncé = #2F5975; ou plus foncé 24485F, plus foncé encore #0C3149
+$blanc = #FFFFFF;
+
+*/
+
+body {
+	background-color: #24485F;
+		position: relative;
+
+}
+
+/*********NAVBAR***********/
+.carousel-indicators {
+	z-index: 1;
+}
+
+.nav.nav-tabs {
+	position: fixed;
+	top: 3px;
+	left: 5%;
+	background-color: #032236;
+	margin-top: 5px;
+	border: 1px solid #00FFFF;
+	border-top-right-radius: 5px; 
+	border-top-left-radius: 5px;
+	z-index: 10;
+}
+
+.nav.nav-tabs li.active {
+	background-color: #00FFFF;
+	border-color: #00FFFF;
+}
+
+
+#lign {
+	width: 100%;
+	height: 3px;
+	background-color: #00FFFF;
+	position: fixed;
+	top: 48px;
+	z-index: 2;
+}
+
+.back-color {
+	width: 100%;
+	height: 50px;
+	background-color: #0C3149;
+	position: fixed;
+	z-index: 10;
+}
+
+.nav.nav-tabs a {
+	color: #FFFFFF;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+
+/**********************************************JUMBOTRON***********************************/
+
+
+.jumbotron {
+    margin-top: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    overflow: auto;
+    background-attachment: fixed;
+    background-image: url(img/back-bois2.png);
+}
+
+.jumbotron h2 {
+	float: center;
+	text-align: center;
+    font-family: "kandinsky";
+	color: #FFFFFF;
+	font-size: 45px;
+	text-shadow: 1px 1px white, -1px -1px #000;
+	margin: 160px 0 0 0;
+	margin-left: -110px;
+}
+
+.jumbotron .s {
+	font-family: 'Poiret One', cursive;
+	color: #FFFFFF;
+
+}
+
+.jumbotron h1 {
+	font-family: 'Poiret One', cursive;
+	color: #FFFFFF;
+	font-size: 65px;
+	text-align: center;
+	margin-top: 15px;
+	text-shadow: 1px 1px white, -1px -1px #444;
+}
+
+.jumbotron .graphic {
+    font-family: "kandinsky";
+	color: #FFFFFF;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 1px 1px white, -1px -1px #000;
+}
+
+.jumbotron h3 {
+	font-family: 'Poiret One', cursive;
+	color: #FFFFFF;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 15px;
+	text-shadow: 1px 1px white, -1px -1px #444;
+	margin-left: 130px;
+}
+
+
+
+@font-face { 
+    font-family: "kandinsky";
+    src: url('fonts/kandinsky.ttf');
+}
+
+.losange-jumbotron {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: -345px;
+}
+
+/****************************************ROME**********************************************/
+
+img {transition: all 1s ease;
+}
+
+img.rotate:hover {
+
+    transform: rotate(-10deg);
+    z-index: 1;
+    position: absolute;
+    border-style: solid;
+    border-color: #00FFFF;
+    border-width: 2px;
+
+}
+
+.lign-top {
+	width: 100%;
+	height: 3px;
+	background-color: #FFA200;
+	top: 43px;
+	margin-top: -30px;
+
+}
+
+.chemin-rome {
+	width: 1px;
+	height: 550px;
+	margin-left: 80%;
+	border-right-style: dotted;
+	border-bottom-style: dotted;
+	border-width: 3px;
+	border-color: #FFA200;
+	padding: 90px;
+	margin-right: 40px;
+}
+
+.rome-text {
+	border: 3px dotted #FFA200;
+	margin: -170px 200px 200px 70px;
+	color: #FFFFFF;
+	padding: 20px;
+	display: inline-block;
+	background-color: #24485F;
+	width: 75%;
+}
+
+.rome-text h1 {
+float: left;
+
+border-right-width: 5px;
+border-right-style: solid;
+border-right-color: #FFA200;
+padding: 25px;
+margin: 0;
+}
+
+.rome-text p {
+padding: 10px 0 0 190px;
+text-align: justify;
+
+}
+
+.see-more-rome  {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	margin-left: 80%;
+	margin-top: -315px;
+}
+
+
+#gallery-rome {
+width: 60%;
+margin: -450px 0 100px 170px;
+display: inline-block;
+background-color: rgba(0, 255, 255, .5)
+
+}
+
+  #gallery-rome img {
+    max-width: 100%;
+    position: relative;
+}
+
+#gallery-rome .col-xs-3 {
+    padding: 0px; 
+}
+  
+.carousel-inner img {
+	    max-width: 100%;
+	    width: 80%;
+    position: relative;
+display: block;
+	margin-left: auto;
+    margin-right: auto;}
+
+/**************************************PORTLAND******************************************/
+
+
+.nature-text {
+	border: 3px dotted #FFA200;
+	margin: 90px 230px 200px 40px;
+	color: #FFFFFF;
+	padding: 20px;
+	display: inline-block;
+	background-color: #24485F;
+	width: 80%;
+}
+
+.chemin-nature {
+	
+	margin-left: 8%;
+	border-left-style: dotted;
+	border-bottom-style: dotted;
+	border-top-style: solid;
+	border-width: 3px;
+	border-color: #FFA200;
+	border-top-color: #24485F;
+	padding: 220px;
+	width: 100%;
+	margin-top: -240px;
+}
+
+.nature-text h1 {
+float: right;
+border-left-width: 5px;
+border-left-style: solid;
+border-left-color: #FFA200;
+padding: 25px;
+margin: 0;
+}
+
+.nature-text p {
+padding: 0px 270px 0px 10px;
+text-align: justify;
+}
+
+.see-more-nature  {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	margin-left: 80%;
+	margin-top: 375px;
+}
+
+
+#gallery-nature {
+width: 60%;
+margin: -390px 0 100px 170px;
+display: inline-block;
+background-color: rgba(0, 255, 255, .5)
+}
+
+  #gallery-nature img {
+    max-width: 100%;
+    position: relative;
+
+}
+
+#gallery-nature .col-xs-3 {
+    padding: 0px; 
+}
+  
+
+
+/**************************************SEATTLE*****************************************/
+
+
+
+.beach-text {
+	border: 3px dotted #FFA200;
+	margin: 30px 70px 0px 250px;
+	color: #FFFFFF;
+	padding: 20px;
+	background-color: #24485F;
+	display: inline-block;
+	width: 65%;
+}
+
+.beach-text h1 {
+
+float:left;
+border-right-width: 5px;
+border-right-style: solid;
+border-right-color: #FFA200;
+padding: 20px;
+margin: 0;
+}
+
+.beach-text p {
+padding: 10px 0 0 220px;
+text-align: justify;
+}
+
+.chemin-beach {
+	margin-left: 100px;
+	margin-right: 85%;
+	border-left-style: dotted;
+	border-top-style: dotted;
+	border-bottom-style: solid;
+	border-width: 3px;
+	border-color: #FFA200;
+	border-bottom-color: #24485F;
+	padding: 200px;
+	margin-top: -350px;
+	z-index: 1;
+
+}
+
+.lign-bottom {
+	width: 120%;
+	height: 3px;
+	background-color: #FFA200;
+	margin-top: -3px;
+	z-index: 2;
+	position: absolute;
+
+}
+
+.see-more-beach  {
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	margin-left: 80%;
+	margin-top: 500px;
+}
+
+
+#gallery-beach1 {
+width: 60%;
+margin: 70px 0 0px 170px;
+display: inline-block;
+background-color: rgba(0, 255, 255, .5)
+
+}
+
+  #gallery-beach1 img {
+    max-width: 100%;
+}
+
+#gallery-beach1 .col-xs-3 {
+    padding: 0px; 
+}
+
+
+  #gallery-beach2 {
+width: 60%;
+margin: 30px 0 100px 170px;
+display: inline-block;
+background-color: rgba(0, 255, 255, .5)
+
+}
+  #gallery-beach2 img {
+    max-width: 100%;
+
+}
+
+#gallery-beach2 .col-xs-3 {
+    padding: 0px; 
+}
+
+
+
+/***************************************ABOUT ME**************************************/
+
+.about-me {
+
+	background-color: #24485F;
+	border: 3px solid #00FFFF;
+	color: #FFFFFF;
+	padding: 20px;
+	display: inline-block;
+	margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 150px;
+	margin-bottom: 320px;
+	padding: 35px;
+	width: 80%;
+}
+
+.about-me h1 {
+	
+font-family: "kandinsky";
+float: center;
+text-align: center;
+border-bottom-width: 2.5px;
+border-bottom-style: dotted;
+border-bottom-color: #00FFFF;
+padding: 0 0px 20px 0px;
+margin: 0;
+margin-bottom: 10px;
+
+}
+
+.about-me p {
+	text-align: justify;
+	padding: 20px 0 -5px 0;
+	text-align: center;
+}
+
+
+.box-left {
+	display: block;
+	float: left;
+	border-style: dashed;
+	border-color: #FFA200;
+	margin-left: -10px;
+	margin-top: -620px;
+	margin-bottom: 100px;
+	padding-top: 350px;
+	padding-right: 200px;
+
+}
+
+.box-right {
+	display: block;
+	float: right;
+	border-style: dashed;
+	border-color: #FFA200;
+	margin-right: -10px;
+	margin-top: -620px;
+	margin-bottom: 100px;
+	padding-top: 350px;
+	padding-right: 200px;
+}
+
+
+.icon-contact img {
+	width: 80px;
+	border-radius: 15px;
+margin-top: -200px;
+transition: all 1s ease;
+position: absolute;
+background-color: #24485F;
+}
+
+.fb {
+	margin-left: 36%;
+}
+
+.ldi {
+	margin-left: 54%;
+}
+
+.icon-contact img:hover {
+	transform: rotate(360deg);
+}
+
+footer {
+	background-color: #FFFFFF;
+	text-align: center;
+	color: #24485F;
+	padding: 5px;
+}
+
+/*******************************************MEDIA QUERY**************************************/
+
+@media screen and (max-width: 900px)  {
+
+	.see-more-nature {
+		margin-left: 85%;
+	}
+
+	#gallery-rome .row1 {
+		margin-top: -300px;
+	}
+
+}
+
+@media screen and (max-width: 1050px)  {
+		
+	#gallery-rome {
+	margin-left: 50px;
+	}
+
+	.chemin-rome {
+		margin-left: 70%;
+	}
+
+	.rome-text {
+		padding: 15px;
+	}
+
+	.see-more-rome {
+			margin-left: 70%;
+	}
+}
+
+@media screen and (max-width: 800px)  {
+
+	.see-more-beach {margin-left: 85%;}
+	#gallery-nature .row1 {margin-top: -300px}
+
+}
+
+@media screen and (max-width: 750px)  {
+
+	.see-more-rome {margin-left: 78%;}
+
+	#gallery-nature .row1 {margin-left: -70px;}
+	#gallery-nature .row2 {margin-left: -70px;}
+
+	.chemin-beach { margin-left: 50px;}
+	.beach-text {margin: 30px 70px 0px 150px;
+				 width: 75%;}
+	#gallery-beach1 .row1 {margin-left: -80px;}
+	#gallery-beach2 .row2 {margin-left: -80px;}
+	.see-more-beach {margin-top: 430px;}
+
+	#gallery-rome .row1 {width: 120%;}
+	#gallery-rome .row2 {width: 120%;}
+	#gallery-rome {margin-left: 20px;}
+
+}
+
+@media screen and (max-width: 680px)  {
+	.nature-text {color:red;}
+
+	.nature-text h1 {
+		float: center;
+		border-left-style: none;
+	}
+
+	.nature-text p {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 600px)  {
+
+
+	.nav.nav-tabs a {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+	.rome-text h1 {
+		float: center; 
+		border-right-style: none;
+	}
+	.rome-text p {
+		padding: 0;
+	}
+	
+	.beach-text h1 {
+		padding: 10px;}
+	
+	.beach-text p {
+		padding: 10px 0 0 170px;}
+
+	#gallery-beach1, #gallery-beach2, #gallery-rome, #gallery-nature {
+		width: 75%;}
+
+	#gallery-rome .row1 {margin-top: -350px;}
+	
+	#gallery-nature .row1 {margin-left: -90px;
+		margin-right: 50px;}
+	#gallery-nature .row2 {margin-left: -90px;
+		margin-right: 50px;}
+	
+	#gallery-beach1 .row1 {margin-left: -100px;}
+	#gallery-beach2 .row2 {margin-left: -100px;}
+
+	.see-more-beach, .see-more-nature, .see-more-rome {
+		display: none;	}
+
+/*	.contact_mail {
+		margin-top: 20px;
+		margin-left: -90px;
+		font-weight: bold;
+	}*/
+
+}
+
+/*************************************OVERLAY*************************************/
+
+#overlay {
+  background:rgba(0,0,0,0.7);
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+  text-align:center;
+}
+
+#img-rome {
+ margin-top: 57%;
+ width: 35%; 
+ margin-left: 11%;
+}
+
+/*#img-nature {
+ margin-top: 100%;
+ width: 55%; 
+}*/
+
