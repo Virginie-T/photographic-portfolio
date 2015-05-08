@@ -348,7 +348,7 @@ text-align: justify;
 	height: 3px;
 	background-color: #FFA200;
 	margin-top: -3px;
-	z-index: 2;
+	z-index: 0;
 	position: absolute;
 
 }
@@ -623,13 +623,17 @@ footer {
 }
 
 #img-rome {
- margin-top: 57%;
+ margin-top: 67%;
  width: 35%; 
  margin-left: 11%;
 }
 
-/*#img-nature {
- margin-top: 100%;
+#img-nature {
+ margin-top: 200%;
  width: 55%; 
-}*/
+}
 
+#img-beach {
+ margin-top: 320%;
+ width: 55%; 
+}

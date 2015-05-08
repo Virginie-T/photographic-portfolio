@@ -1,75 +1,60 @@
 var $overlay = $('<div id="overlay"></div>');
-var $image = $("<img id='img-rome'>");
+var $imagerome = $("<img id='img-rome'>");
 var $imagenature = $("<img id='img-nature'>");
-
+var $imagebeach = $("<img id='img-beach'>");
 
 
 $("body").append($overlay);
 
+
+
 $("#gallery-rome a").click(function(event){
   event.preventDefault();
-  $overlay.append($image);
+  $overlay.append($imagerome);
 
   var imageLocation = $(this).attr("href");
-  $image.attr("src", imageLocation);
-  
+  $imagerome.attr("src", imageLocation);
+  $imagerome.show();
   $overlay.show();
 });
 
-// $("#gallery-nature a").click(function(event){
-//   event.preventDefault();
-//   $overlay.append($imagenature);
-
-//   var imageLocation = $(this).attr("href");
-//   $image.attr("src", imageLocation);
-  
-//   $overlay.show();
-// });
-
 $overlay.click(function(){
+  $imagerome.hide();
   $overlay.hide();
-
 });
 
 
 
-// var $overlayRome = $('<div id="overlay-rome"></div>');
-// var $image = $("<img>");
 
-// $overlayRome.append($image);
+$("#gallery-nature a").click(function(event){
+  event.preventDefault();
+  $overlay.append($imagenature);
 
-// $("body").append($overlayRome);
+  var imageLocation = $(this).attr("href");
+  $imagenature.attr("src", imageLocation);
+  $imagenature.show();
+  $overlay.show();
+});
 
-// $("#gallery-rome a").click(function(event){
-//   event.preventDefault();
-//   var imageLocation = $(this).attr("href");
-//   $image.attr("src", imageLocation);
-  
-//   $overlayRome.show();
-// });
-
-// $overlayRome.click(function(){
-//   $overlayRome.hide();
-
-// });
+$overlay.click(function(){
+  $imagenature.hide();
+  $overlay.hide();
+});
 
 
-// var $overlayNature = $('<div id="overlay-nature"></div>');
-// var $image = $("<img>");
 
-// $overlayNature.append($image);
 
-// $("body").append($overlayNature);
+$("#gallery-beach1 a, #gallery-beach2 a").click(function(event){
+  event.preventDefault();
+  $overlay.append($imagebeach);
 
-// $("#gallery-nature a").click(function(event){
-//   event.preventDefault();
-//   var imageLocation = $(this).attr("href");
-//   $image.attr("src", imageLocation);
-  
-//   $overlayNature.show();
-// });
+  var imageLocation = $(this).attr("href");
+  $imagebeach.attr("src", imageLocation);
+  $imagebeach.show();
+  $overlay.show();
+});
 
-// $overlayNature.click(function(){
-//   $overlayNature.hide();
-
-// });
+$overlay.click(function(){
+  $imagebeach.hide();
+  $overlay.hide();
+});
